@@ -1,0 +1,18 @@
+version: '3.8'
+
+services: 
+  postgres: 
+    image: postgres:16-alpine
+    container_name: pak_biz_postgres
+    restart: unless-stopped 
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pak-biz-pass 
+      POSTGRES_DB: pak_biz_pos_db 
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data 
+
+volumes:
+  postgres_data:
