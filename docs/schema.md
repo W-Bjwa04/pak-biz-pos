@@ -35,7 +35,7 @@ products [icon: "package"] {
   type_id uuid
   product_name string
   unit string               // piece | kg | dozen | litre
-  purchase_price numeric    // NUMERIC(12,2)
+  purchase_price numeric (10,2)    // NUMERIC(12,2)
   selling_price numeric     // NUMERIC(12,2)
   stock_quantity numeric    // NUMERIC(12,3), decimals allowed
   created_at timestamp
