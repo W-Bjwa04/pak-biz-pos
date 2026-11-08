@@ -1,0 +1,29 @@
+{
+  "name": "pak-biz-pos",
+  "version": "1.0.0",
+  "description": "Automated hybrid Cash and Credit (Udhaar) ledger system for local retail.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W-Bjwa04/pak-biz-pos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/W-Bjwa04/pak-biz-pos/issues"
+  },
+  "homepage": "https://github.com/W-Bjwa04/pak-biz-pos#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "knex": "^3.3.0",
+    "pg": "^8.23.1"
+  }
+}
