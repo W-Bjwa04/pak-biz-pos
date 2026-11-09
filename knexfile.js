@@ -17,7 +17,7 @@ export default {
             tableName: 'knex_migrations'
         },
         seeds: {
-      directory: './database/seeds'
-    }
+            directory: './database/seeds'
+        }
     }
 }
